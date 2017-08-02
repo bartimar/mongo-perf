@@ -3,7 +3,7 @@ if ( typeof(tests) != "object" ) {
 }
 
 /*
-* Setup: Populate the collection with 4800 documents with interger
+* Setup: Populate the collection with 4800 documents with integer
 *        _id ranging from 0 to 4799, and a numerical field "a" set to 0
 * Test: Each thread works in its range of 100 documents (separated by _id),
 *       randomly selects a document and increments field "a" by 1
